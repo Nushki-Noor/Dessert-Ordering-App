@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MobileApp"
+        tools:targetApi="31">
+        <activity
+            android:name="UIClass.Admin.ViewOrder"
+            android:exported="false" />
+        <activity
+            android:name="UIClass.Customer.ViewOrder"
+            android:exported="false" />
+        <activity
+            android:name="UIClass.Customer.CustomerClass"
+            android:exported="false" />
+        <activity
+            android:name="UIClass.Customer.buyCupcake"
+            android:exported="false" />
+        <activity
+            android:name="UIClass.Customer.ViewCupcake"
+            android:exported="false" />
+        <activity
+            android:name="UIClass.Admin.DeleteCupcake"
+            android:exported="false" />
+        <activity
+            android:name="UIClass.Admin.CreateCupcake"
+            android:exported="false" />
+        <activity
+            android:name="UIClass.Admin.DeleteCategory"
+            android:exported="false" />
+        <activity
+            android:name="UIClass.Admin.CreateCategory"
+            android:exported="false" />
+        <activity
+            android:name="UIClass.Customer.CustViewOrder"
+            android:exported="false" />
+        <activity
+            android:name="UIClass.Admin.ManageCupcake"
+            android:exported="false" />
+        <activity
+            android:name="UIClass.Admin.ManageCategory"
+            android:exported="false" />
+        <activity
+            android:name="UIClass.Customer.CustCategory"
+            android:exported="false" />
+        <activity
+            android:name="UIClass.Admin.Admin"
+            android:exported="false" />
+        <activity
+            android:name="UIClass.Register"
+            android:exported="false" />
+        <activity
+            android:name="UIClass.Login"
+            android:exported="false" />
+        <activity
+            android:name="UIClass.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

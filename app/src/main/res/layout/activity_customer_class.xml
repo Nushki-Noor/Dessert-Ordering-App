@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back2"
+    tools:context="UIClass.Customer.CustomerClass">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="346dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="68dp"
+        android:layout_marginEnd="32dp"
+        android:text="Welcome Customer!"
+        android:textColor="@color/black"
+        android:textSize="100px"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnOrderCupcake"
+        android:layout_width="195dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="316dp"
+        android:layout_marginEnd="108dp"
+        android:background="#EC569C"
+        android:text="Order Cupcakes"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnViewOrder1"
+        android:layout_width="196dp"
+        android:layout_height="48dp"
+        android:layout_marginEnd="108dp"
+        android:layout_marginBottom="280dp"
+        android:background="#EC569C"
+        android:text="View Order"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

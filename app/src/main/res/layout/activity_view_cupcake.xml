@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back1"
+    tools:context="UIClass.Customer.ViewCupcake">
+
+    <ListView
+        android:id="@+id/cupcakeListView"
+        android:layout_width="340dp"
+        android:layout_height="323dp"
+        android:layout_marginTop="300dp"
+        android:layout_marginEnd="36dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="165dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="94dp"
+        android:layout_marginEnd="123dp"
+        android:text="Type Cupcake Number to Order"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="50px"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="120dp"
+        android:text="Cupcakes"
+        android:textColor="@color/black"
+        android:textSize="100px"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/txtBuyID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="100dp"
+        android:ems="10"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+    <Button
+        android:id="@+id/btnBuyCups"
+        android:layout_width="183dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="114dp"
+        android:background="#C3FB6398"
+        android:text="Buy"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtBuyID" />
+</androidx.constraintlayout.widget.ConstraintLayout>

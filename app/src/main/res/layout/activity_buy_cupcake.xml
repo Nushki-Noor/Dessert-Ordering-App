@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back1"
+    tools:context="UIClass.Customer.buyCupcake">
+
+    <EditText
+        android:id="@+id/txtCupGetQty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="101dp"
+        android:ems="10"
+        android:hint="Available Qty"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtCupGetName" />
+
+    <EditText
+        android:id="@+id/txtCupGetName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="101dp"
+        android:ems="10"
+        android:hint="Cupcake Name"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtCupGetID" />
+
+    <EditText
+        android:id="@+id/txtCupGetID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="91dp"
+        android:layout_marginEnd="101dp"
+        android:ems="10"
+        android:hint="Cupcake ID"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnPurchase" />
+
+    <EditText
+        android:id="@+id/txtCupGetPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="101dp"
+        android:ems="10"
+        android:hint="Price"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtCupGetQty" />
+
+    <EditText
+        android:id="@+id/txtReqQty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="101dp"
+        android:ems="10"
+        android:hint="Required qty"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtInvoiceID" />
+
+    <Button
+        android:id="@+id/btnPurchase"
+        android:layout_width="196dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="54dp"
+        android:layout_marginEnd="108dp"
+        android:background="#C3FB6398"
+        android:text="Buy"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtReqQty" />
+
+    <EditText
+        android:id="@+id/txtInvoiceID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="29dp"
+        android:layout_marginEnd="101dp"
+        android:ems="10"
+        android:hint="Invoice ID"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

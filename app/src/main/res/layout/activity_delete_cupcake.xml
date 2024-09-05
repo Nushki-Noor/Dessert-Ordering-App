@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back1"
+    tools:context="UIClass.Admin.DeleteCupcake">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="72dp"
+        android:text="Delete Cupcake"
+        android:textColor="@color/black"
+        android:textSize="100px"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/txtCupDelete"
+        android:layout_width="252dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="212dp"
+        android:layout_marginEnd="76dp"
+        android:ems="10"
+        android:hint="Cupcake ID"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <Button
+        android:id="@+id/btnCupDelete"
+        android:layout_width="225dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="92dp"
+        android:background="#C3FB6398"
+        android:text="Delete"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtCupDelete" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back3"
+    tools:context="UIClass.MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="195dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="82dp"
+        android:layout_marginEnd="108dp"
+        android:text="Welcome"
+        android:textColor="@color/black"
+        android:textSize="120px"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/LogBtn"
+        android:layout_width="217dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="253dp"
+        android:layout_marginEnd="97dp"
+        android:background="#F14B99"
+        android:text="Login"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <Button
+        android:id="@+id/RegBtn"
+        android:layout_width="217dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="97dp"
+        android:background="#F14B99"
+        android:text="Register"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/LogBtn" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
